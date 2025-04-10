@@ -49,16 +49,14 @@ pipeline {
                     script {
                         echo 'DVC Pulling....'
                         sh '''
-                            # Activate the virtual environment
-                            source ${VENV_DIR}/bin/activate
-
-                            # Run DVC pull
+                            . venv/bin/activate
                             dvc pull
                         '''
                     }
                 }
             }
         }
+
 
 
 
