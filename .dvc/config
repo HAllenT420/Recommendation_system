@@ -4,4 +4,4 @@
     url = gs://my-dvc-bucket95/
 ['remote "animerecomd"']
     url = gs://my-dvc-bucket95/
-    credentialpath = C:\Users\allen_vvyeprk\Downloads\recommender-key.json
+    credentialpath = ../custom_jenkins/gcp-key.json
