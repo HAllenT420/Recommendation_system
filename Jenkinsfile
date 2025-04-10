@@ -50,7 +50,6 @@ pipeline {
                         echo 'DVC Pulling....'
                         sh '''
                         . ${VENV_DIR}/bin/activate
-                        export GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS
                         dvc pull
                         '''
                     }
